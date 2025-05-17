@@ -4,17 +4,26 @@
 
 ## 主要功能
 
-- 创建、编辑和删除 Webhook
-- 启用/禁用 Webhook 状态
-- 自定义数据触发 Webhook
-- 亮色/暗色主题支持
-- 响应式三列布局
+- 🚀 完全本地处理 - 所有操作在浏览器中完成，文件不会上传到任何服务器
+- 🔄 多角度旋转 - 支持90°、180°、270°顺时针/逆时针旋转
+- 📄 多页预览 - 显示PDF所有页面，支持分页导航
+- 💾 即时下载 - 旋转后立即下载处理好的文件
+- 🎨 简洁界面 - 直观易用的用户界面，模仿 pdf.ai 的设计
+- 📱 响应式设计 - 适配各种屏幕尺寸
+
+## 技术栈
+
+- Next.js - React 框架
+- React-pdf - PDF 渲染库
+- pdf-lib - PDF 操作库
+- react-dropzone - 文件拖放上传
+- file-saver - 文件下载
 
 ## 安装指南
 
 ```bash
 # 克隆仓库
-git clone https://github.com/keiSenFront/webhook-management.git
+git clone https://github.com/keiSenFront/20250516.git
 cd pdf-rotate-tool
 
 # 安装依赖
